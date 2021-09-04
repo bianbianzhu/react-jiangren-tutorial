@@ -1,24 +1,20 @@
 import logo from './logo.svg';
 import './App.css';
+import Greeting from './greeting/greeting';
+import StopWatch from './stop-watch/StopWatch';
+import StopWatch2 from './stop-watch/StopWatch2';
+import HeroList from './hero-list/HeroList';
+import ActionLink from './event';
+
+
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
-      </header>
-    </div>
+    // <Greeting />
+    // <StopWatch />
+    // <StopWatch2 />
+    // <HeroList />
+    <ActionLink />
   );
 }
 
